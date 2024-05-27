@@ -6,7 +6,7 @@
     ansible.builtin.yum:
       name: nginx
       state: removed
-  - name: start nginx
+ # - name: start nginx
     ansible.builtin.service:
       name: nginx
       state: stopped
